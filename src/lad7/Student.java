@@ -20,6 +20,16 @@ public class Student {
         this.height = height;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender='" + gender + '\'' +
+                ", height=" + height +
+                '}';
+    }
+
     public String getName() {
         return name;
     }
