@@ -1,4 +1,4 @@
-package lab8;
+package lad8;
 
 public class Dog extends Pet{
 
