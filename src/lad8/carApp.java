@@ -1,9 +1,9 @@
 package lad8;
 
 public class carApp {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Engine e = new Engine();
-        e.getEngSize(2500);
+        e.setEngSize(2500);
         e.setHorsePower(150);
 
         //create car object
@@ -19,5 +19,5 @@ public class carApp {
     }//main
 
 
-
 }//class
+
