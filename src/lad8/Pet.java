@@ -1,4 +1,4 @@
-package lab8;
+package lad8;
 
 public abstract class Pet {
     private String name;
